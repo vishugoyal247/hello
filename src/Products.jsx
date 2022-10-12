@@ -2,7 +2,7 @@ import React from 'react'
 import ProductInfo from './ProductInfo'
 export default function Products({product,className}) {
   return (
-    <div className={`bg-red-500 ${className}`}>
+    <div className={`bg-white grid grid-cols-6 ${className}`}>
         {product.map(function (item)
         {
             return (
