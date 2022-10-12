@@ -24,14 +24,19 @@ export default function ProductList() {
             imgUrl: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.xtees.com%2Fuploads%2Fproducts%2Fimages%2Fprimary%2Fbottle-green-plain-round-neck-t-shirt_1611589901.jpg&f=1&nofb=1&ipt=de7fe4397675c0fd13d09a6a9cb10d45ef5cf70d4461621fcf24398d41802d2f&ipo=images",
             category: "T-Shirt"
         },
-
+        {
+            title: "White Tshirt",
+            price: "30",
+            imgUrl: "https://img.freepik.com/free-psd/isolated-black-t-shirt-front_125540-1167.jpg?w=740&t=st=1665566593~exp=1665567193~hmac=7327f85742251a8ff1b6e5bc0c5ec46d762149839d8773f33c60f8cf84696ed4",
+            category: "T-Shirt"
+        },
     ]
 
 
 
     return (
         <>
-            <div className='bg-green-400 h-16 py-4 px-20 font-bold' >
+            <div className='bg-[#0F1111] h-16 py-4 px-20 font-bold text-white' >
                 AMAZON
             </div>
 
